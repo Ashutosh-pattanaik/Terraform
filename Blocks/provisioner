@@ -1,0 +1,19 @@
+9️⃣ provisioner Block
+
+Runs scripts inside a resource.
+
+resource "aws_instance" "web" {
+
+  provisioner "local-exec" {
+    command = "echo Instance created"
+  }
+
+}
+
+Types:
+
+local-exec
+
+remote-exec
+
+file
