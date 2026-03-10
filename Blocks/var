@@ -1,0 +1,14 @@
+5️⃣ variable Block
+
+Defines input variables.
+
+variable "region" {
+  description = "AWS region"
+  type        = string
+}
+
+Purpose:
+
+Reusable configuration
+
+Pass values during runtime
