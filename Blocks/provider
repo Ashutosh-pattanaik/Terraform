@@ -1,0 +1,15 @@
+2️⃣ provider Block
+
+Configures the cloud provider (AWS, Azure, GCP).
+
+Example with Amazon Web Services:
+
+provider "aws" {
+  region = "us-east-1"
+}
+
+Purpose:
+
+Connect Terraform to cloud platform
+
+Define region, credentials, etc.
