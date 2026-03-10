@@ -1,0 +1,21 @@
+file
+
+🔟 backend Block
+
+Defines where Terraform state file is stored.
+
+Example using Amazon S3:
+
+terraform {
+  backend "s3" {
+    bucket = "terraform-state"
+    key    = "dev/terraform.tfstate"
+    region = "us-east-1"
+  }
+}
+
+Purpose:
+
+Remote state storage
+
+Team collaboration
