@@ -1,0 +1,16 @@
+3️⃣ resource Block
+
+Creates infrastructure resources like EC2, VPC, etc.
+
+Example:
+
+resource "aws_instance" "my_ec2" {
+  ami           = "ami-12345"
+  instance_type = "t2.micro"
+}
+
+Purpose:
+
+Create infrastructure
+
+Example: EC2, VPC, S3, security groups
