@@ -1,0 +1,13 @@
+8️⃣ module Block
+
+Used to call reusable Terraform modules.
+
+module "vpc" {
+  source = "./modules/vpc"
+}
+
+Purpose:
+
+Reusable infrastructure
+
+Used in large projects
