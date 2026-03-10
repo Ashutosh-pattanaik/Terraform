@@ -1,0 +1,13 @@
+6️⃣ output Block
+
+Displays values after Terraform runs.
+
+output "instance_ip" {
+  value = aws_instance.my_ec2.public_ip
+}
+
+Purpose:
+
+Show results after deployment
+
+Useful for IPs, DNS, etc.
