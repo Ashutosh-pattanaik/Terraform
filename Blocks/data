@@ -1,0 +1,14 @@
+4️⃣ data Block
+
+Fetches existing infrastructure data.
+
+data "aws_ami" "latest_amazon_linux" {
+  most_recent = true
+  owners      = ["amazon"]
+}
+
+Purpose:
+
+read existing resources in another terraform file. and use it in our own file
+
+Does not create anything
