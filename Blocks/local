@@ -1,0 +1,11 @@
+7️⃣ locals Block
+
+Defines local variables inside Terraform.
+
+locals {
+  instance_type = "t2.micro"
+}
+
+Purpose:
+
+Reusable internal values
